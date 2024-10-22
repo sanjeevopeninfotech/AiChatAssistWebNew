@@ -31,8 +31,8 @@
   --text-color: #48494e;
   --heading: #090f32;
   --prime-one: #ff8c24;
-  --prime-two: #ff733b;
-  --prime-three: #6a45ff;
+  --prime-two: #8671e5;
+  --prime-three: #8671e5;
   --prime-four: #ffcd45;
   --prime-five: #007bff;
   --prime-six: #ffd338;
@@ -44,7 +44,7 @@
   --prime-twelve: #ffe500;
 }
 ::selection {
-  background-color: #2a2a2a;
+  background-color: #000;
   color: #fff;
 }
 
@@ -3016,7 +3016,7 @@ body .btn-twentySix:hover:after {
 // }
 .hero-banner-three .slogan {
   line-height: initial;
-  border-radius: 20px;
+  border-radius: 14px;
   padding: 5px 10px 5px 15px;
   background: rgba(255, 255, 255, 0.22);
   color: #000;
@@ -3039,7 +3039,7 @@ body .btn-twentySix:hover:after {
   color: #fff;
 }
 .hero-banner-three .hero-heading {
-  font-size: 90px;
+  font-size: 50px;
   line-height: 1.22em;
   letter-spacing: -2px;
 }
@@ -3047,23 +3047,29 @@ body .btn-twentySix:hover:after {
   line-height: 60px;
   padding: 0 40px;
   color: #fff;
-  background: #262626;
+  background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
   border-radius: 50px;
+  transition: background 0.5s ease-in-out; /* Make sure the transition is smooth */
 }
+
 .hero-banner-three .download-btn button:after {
   content: url(/images/icon/icon_21.svg);
   border: none;
   margin: 0 0 0 8px;
   vertical-align: 0;
-  transition: all 0.2s ease-in-out;
+  transition: transform 1s ease-in-out; /* Ensure smooth rotation for the icon */
 }
+
 .hero-banner-three .download-btn button.show:after {
   transform: rotate(180deg);
 }
+
 .hero-banner-three .download-btn button.show,
 .hero-banner-three .download-btn button:hover {
-  background: var(--prime-three);
+  background: linear-gradient(271.27deg, #cd8be6 -9.95%, #887ee1 110.34%);
+  transition: background 0.5s ease-in-out; /* Smooth transition for hover */
 }
+
 .hero-banner-three .download-btn .dropdown-menu {
   width: 100%;
   border-radius: 10px;
@@ -5338,7 +5344,7 @@ body .btn-twentySix:hover:after {
 }
 .hero-banner-seven .slogan {
   line-height: initial;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 5px 10px 5px 22px;
   background: #fff;
   color: #000;

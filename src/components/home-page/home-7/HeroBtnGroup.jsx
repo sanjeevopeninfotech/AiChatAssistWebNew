@@ -59,13 +59,13 @@ const HeroBtnGroup = () => {
           onClick={toggleDropdown}
         >
           <button
-            className="dropdown-toggle tran3s"
+            className="dropdown-toggle tran3s gradientBtn"
             type="button"
             id="appDownBtn"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            {selectedValue ? selectedValue : "Download - It’s free"}
+            {selectedValue ? selectedValue : "30-Day Free Trial"}
           </button>
           <ul
             className={`dropdown-menu ${showDropdown ? "show" : ""}`}

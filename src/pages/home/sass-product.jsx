@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Seo from "../../components/common/Seo";
 import Header from "../../components/home-page/home-6/Header";
 import Hero from "../../components/home-page/home-7/Hero";
@@ -16,8 +16,30 @@ import Subscribe from "../../components/home-page/home-6/Subscribe";
 import FooterMenu from "../../components/home-page/home-6/FooterMenu";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import "../../styles/SassHero.css";
+import NET from "vanta/src/vanta.dots";
 
 const SassProduct = () => {
+  const vantaRef = useRef(null);
+
+  useEffect(() => {
+    const vantaEffect = NET({
+      el: vantaRef.current,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0xa227a7,
+      backgroundColor: 0xffffff,
+      showLines: false,
+    });
+
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, []);
   return (
     <>
       <Seo pageTitle="Sass Product" />
@@ -34,7 +56,9 @@ const SassProduct = () => {
         Theme Hero Banner
         ==============================================  */}
       <div
-        className="hero-banner-three position-relative pt-200 md-pt-150"
+        id="vanta"
+        ref={vantaRef}
+        className="hero-banner-three position-relative pt-200 md-pt-150 bg"
         data-aos="fade-right"
       >
         <div className="container">
