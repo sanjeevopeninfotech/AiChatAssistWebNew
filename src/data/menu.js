@@ -31,7 +31,7 @@ export const menuItems = [
 
 export const pagesItems = [
   {
-    title: "About Us",
+    title: "Information Bot",
     subItems: [
       { title: "About - Insurance", link: "/pages-menu/about-us-v1" },
       { title: "About - Real Estate", link: "/pages-menu/about-us-v2" },
@@ -40,7 +40,7 @@ export const pagesItems = [
     ],
   },
   {
-    title: "Services",
+    title: "Coordinator Bot",
     subItems: [
       { title: "Service - Insurance", link: "/pages-menu/service-v1" },
       { title: "Service - Real Estate", link: "/pages-menu/service-v2" },
@@ -50,7 +50,7 @@ export const pagesItems = [
     ],
   },
   {
-    title: "Our Team",
+    title: "Analytical Bot",
     subItems: [
       { title: "Team One", link: "/pages-menu/team-v1" },
       { title: "Team Two", link: "/pages-menu/team-v2" },
@@ -58,54 +58,37 @@ export const pagesItems = [
   },
 
   {
-    title: "Pricing",
+    title: "Support Bot",
     subItems: [
       { title: "Pricing", link: "/pages-menu/pricing" },
       { title: "Pricing - Sass Product", link: "/pages-menu/pricing-v2" },
       { title: "Pricing -  Web Hosting", link: "/pages-menu/pricing-v3" },
     ],
   },
-  {
-    title: "Features",
-    subItems: [
-      { title: "Features - Sass Product", link: "/pages-menu/features-v1" },
-      { title: "Features - Web Hosting", link: "/pages-menu/features-v2" },
-    ],
-  },
-  {
-    title: "Other Pages",
-    subItems: [
-      { title: "Testimonials", link: "/pages-menu/testimonials" },
-      { title: "FAQ", link: "/pages-menu/faq" },
-      { title: "Signin", link: "/login" },
-      { title: "Signup", link: "/signup" },
-      { title: "404 Error", link: "/404" },
-    ],
-  },
 ];
 
 export const portfolioItems = [
-  { name: "Portfolio 01", link: "/portfolio/portfolio-v1" },
-  { name: "Portfolio 02", link: "/portfolio/portfolio-v2" },
-  { name: "Portfolio 03", link: "/portfolio/portfolio-v3" },
-  { name: "Portfolio 04", link: "/portfolio/portfolio-v4" },
-  { name: "Portfolio 05", link: "/portfolio/portfolio-v5" },
-  { name: "Portfolio 06", link: "/portfolio/portfolio-v6" },
-  { name: "Portfolio 07", link: "/portfolio/portfolio-v7" },
-  { name: "Portfolio Details", link: "/portfolio/1" },
+  { name: "Marketing", link: "/portfolio/portfolio-v1" },
+  { name: "Sales", link: "/portfolio/portfolio-v2" },
+  { name: "Automobile", link: "/portfolio/portfolio-v3" },
+  { name: "Healthcare", link: "/portfolio/portfolio-v4" },
+  { name: "Fintech", link: "/portfolio/portfolio-v5" },
+  { name: "Retail", link: "/portfolio/portfolio-v6" },
+  { name: "Hospitality", link: "/portfolio/portfolio-v7" },
+  { name: "Medical Devices", link: "/portfolio/1" },
 ];
 
 export const blogItems = [
-  { link: "/blog/blog-v1", text: "List With sidebar" },
+  { link: "/blog/blog-v1", text: "List Of Apps" },
   { link: "/blog/blog-v2", text: "Grid With sidebar" },
   { link: "/blog/blog-v3", text: "Grid Layout" },
   { link: "/blog/1", text: "Blog Details" },
 ];
 export const contactItems = [
-  { link: "/contact/contact-v1", text: "Contact - Insurance" },
-  { link: "/contact/contact-v2", text: "Contact - Agency" },
-  { link: "/contact/contact-v3", text: "Contact - Web Hosting" },
-  { link: "/contact/contact-v4", text: "Contact - L.Generation" },
+  { link: "/contact/contact-v1", text: "About Us" },
+  { link: "/contact/contact-v2", text: "Blog" },
+  { link: "/contact/contact-v3", text: "Carrer" },
+  { link: "/contact/contact-v4", text: "Contact Us" },
 ];
 
 export const navItems = [

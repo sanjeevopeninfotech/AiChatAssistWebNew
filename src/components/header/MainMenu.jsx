@@ -118,7 +118,7 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              Pages
+              Product
             </a>
             <ul className="dropdown-menu">
               {pagesItems.map((item, index) => (
@@ -171,7 +171,7 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              Portfolio
+              Solution
             </a>
             <ul className="dropdown-menu">
               {portfolioItems.map((item, index) => (
@@ -204,7 +204,7 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              Blog
+              Integration
             </a>
             <ul className="dropdown-menu">
               {blogItems.map((blog, index) => (
@@ -236,7 +236,7 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              Contact
+              Company
             </a>
             <ul className="dropdown-menu">
               {contactItems.map((contact, index) => (
