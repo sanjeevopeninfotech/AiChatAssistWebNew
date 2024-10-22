@@ -30,7 +30,11 @@ const Header = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
             <Link to="/" className="d-block">
-              <img src="/images/logo/logo_01.png" alt="logo" />
+              <img
+                src="/images/customAssets/Logo.png"
+                alt="logo"
+                className="SassLogo"
+              />
             </Link>
           </div>
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">

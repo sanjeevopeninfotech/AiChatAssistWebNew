@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import MainMenu from "./MainMenu";
 import { Link } from "react-router-dom";
+import "/src/styles/SassHero.css";
 
 const DefaulHeader = () => {
   const [navbar, setNavbar] = useState(false);

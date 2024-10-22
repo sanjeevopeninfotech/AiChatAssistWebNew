@@ -32,38 +32,19 @@ export const menuItems = [
 export const pagesItems = [
   {
     title: "Information Bot",
-    subItems: [
-      { title: "About - Insurance", link: "/pages-menu/about-us-v1" },
-      { title: "About - Real Estate", link: "/pages-menu/about-us-v2" },
-      { title: "About - Agency", link: "/pages-menu/about-us-v3" },
-      { title: "About - Lead Generation", link: "/pages-menu/about-us-v4" },
-    ],
+    link: "/pages-menu/about-us-v1",
   },
   {
     title: "Coordinator Bot",
-    subItems: [
-      { title: "Service - Insurance", link: "/pages-menu/service-v1" },
-      { title: "Service - Real Estate", link: "/pages-menu/service-v2" },
-      { title: "Service Lead Generation", link: "/pages-menu/service-v3" },
-      { title: "Service Agency", link: "/pages-menu/service-v4" },
-      { title: "Service Details", link: "/pages-menu/service-details" },
-    ],
+    link: "/pages-menu/about-us-v2",
   },
   {
     title: "Analytical Bot",
-    subItems: [
-      { title: "Team One", link: "/pages-menu/team-v1" },
-      { title: "Team Two", link: "/pages-menu/team-v2" },
-    ],
+    link: "/pages-menu/about-us-v3",
   },
-
   {
     title: "Support Bot",
-    subItems: [
-      { title: "Pricing", link: "/pages-menu/pricing" },
-      { title: "Pricing - Sass Product", link: "/pages-menu/pricing-v2" },
-      { title: "Pricing -  Web Hosting", link: "/pages-menu/pricing-v3" },
-    ],
+    link: "/pages-menu/about-us-v4",
   },
 ];
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Seo from "../../components/common/Seo";
 import Header from "../../components/home-page/home-6/Header";
-import Hero from "../../components/home-page/home-6/Hero";
+import Hero from "../../components/home-page/home-7/Hero";
 import ScreenHolder from "../../components/home-page/home-6/ScreenHolder";
 import { Link } from "react-router-dom";
 import ProductTabs from "../../components/home-page/home-6/ProductTabs";
@@ -9,11 +9,13 @@ import TagList from "../../components/home-page/home-6/TagList";
 import Features from "../../components/home-page/home-6/Features";
 import Testimonial from "../../components/home-page/home-6/Testimonial";
 import CircleBgShape from "../../components/home-page/home-6/CircleBgShape";
-import Partners from "../../components/home-page/home-6/Partners";
+// import Partners from "../../components/home-page/home-6/Partners";
+import Partner from "../../components/home-page/home-2/Partner";
 import Pricing from "../../components/home-page/home-6/Pricing";
 import Subscribe from "../../components/home-page/home-6/Subscribe";
 import FooterMenu from "../../components/home-page/home-6/FooterMenu";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
+import "../../styles/SassHero.css";
 
 const SassProduct = () => {
   return (
@@ -31,7 +33,45 @@ const SassProduct = () => {
         =============================================
         Theme Hero Banner
         ==============================================  */}
-      <Hero />
+      <div
+        className="hero-banner-three position-relative pt-200 md-pt-150"
+        data-aos="fade-right"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <Hero />
+            </div>
+          </div>
+        </div>
+        {/* /.container */}
+
+        <div className="mobile-screen" data-aos="fade-right">
+          <div className="row gx-xxl-5 justify-content-center align-items-center">
+            <img
+              src="/images/customAssets/HeroGIF.gif"
+              alt="heroGIF"
+              className="custom-hero-gif"
+            />
+          </div>
+        </div>
+        {/* /.mobile-screen */}
+      </div>
+
+      {/* 
+			=============================================
+				Partner Section Four
+			============================================== 
+			*/}
+      <div className="partner-section-four position-relative pt-100 sm-pt-70">
+        <div className="wrapper m-auto">
+          <div className="partner_slider_one row">
+            <Partner />
+          </div>
+        </div>
+        {/* /.wrapper */}
+      </div>
+      {/* /.partner-section-four */}
 
       {/* 
         =============================================
@@ -290,64 +330,6 @@ const SassProduct = () => {
         <CircleBgShape />
       </div>
 
-      {/* 
-        =============================================
-        Partner Section One
-        ============================================== 
-        */}
-      <div className="partner-section-one position-relative mt-225 lg-mt-100">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8 m-auto">
-              <div
-                className="title-style-three text-center mb-100 lg-mb-30"
-                data-aos="fade-up"
-              >
-                <div className="sc-title text-uppercase">Our partners</div>
-                <h2 className="main-title fw-500">
-                  Our trusted partners
-                  <span className="d-inline-block position-relative">
-                    support
-                    <span
-                      className="mark-bg"
-                      style={{ backgroundColor: "#FFF3C6" }}
-                    />
-                  </span>
-                  us always
-                </h2>
-              </div>
-              {/* /.title-style-three */}
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row">
-            <div className="col-xxl-11 m-auto">
-              <div className="row align-items-center">
-                <Partners />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* /.container */}
-
-        <img
-          src="/images/shape/shape_38.svg"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
-        <img
-          src="/images/shape/shape_39.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
-      </div>
-
-      {/*
-        =====================================================
-        Pricing Section One
-        =====================================================
-        */}
       <div className="pricing-section-one position-relative mt-200 lg-mt-120">
         <div className="container">
           <div className="row">

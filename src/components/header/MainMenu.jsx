@@ -100,57 +100,22 @@ const MainMenu = () => {
           </li>
           {/* End li (home mega menu) */}
 
-          <li className="nav-item  dropdown">
+          <li className="nav-item dropdown">
             <a
-              // className="nav-link dropdown-toggle"
-              className={
-                pagesItems.some((menu) =>
-                  menu.subItems.some((elm) => isActive(elm.link))
-                ) ||
-                isActive("/pages-menu/pricing") ||
-                isActive("/pages-menu/testimonials")
-                  ? "nav-link dropdown-toggle active-menu"
-                  : "nav-link dropdown-toggle"
-              }
+              className="nav-link dropdown-toggle"
               href="#"
               role="button"
               data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
               aria-expanded="false"
             >
               Product
             </a>
             <ul className="dropdown-menu">
               {pagesItems.map((item, index) => (
-                <li className="dropdown-submenu dropdown" key={index}>
-                  <a
-                    // className="dropdown-item dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside"
-                    aria-expanded="false"
-                    className={
-                      item.subItems.some((elm) => isActive(elm.link))
-                        ? "dropdown-item dropdown-toggle active-menu"
-                        : "dropdown-item dropdown-toggle"
-                    }
-                    href="#"
-                  >
+                <li className="dropdown-item" key={index}>
+                  <Link to={item.link} className="dropdown-item">
                     <span>{item.title}</span>
-                  </a>
-                  <ul className="dropdown-menu">
-                    {item.subItems.map((subMenu, i) => (
-                      <li key={i}>
-                        <Link
-                          to={subMenu.link}
-                          className={`dropdown-item ${
-                            isActive(subMenu.link) ? "active" : ""
-                          }`}
-                        >
-                          <span>{subMenu.title}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                  </Link>
                 </li>
               ))}
             </ul>

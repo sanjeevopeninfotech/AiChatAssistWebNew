@@ -1,0 +1,38 @@
+.custom-hero-gif {
+  width: 125%; /* Default size for larger screens */
+  position: relative;
+  left: -70px; /* Default positioning for larger screens */
+  bottom: -20px; /* Default positioning for larger screens */
+  max-width: none; /* Ensure no max-width constraints */
+}
+
+.SassLogo {
+  width: 10%;
+}
+
+/* For tablets (portrait and landscape, width less than 1024px) */
+@media (max-width: 1024px) {
+  .custom-hero-gif {
+    width: 100%; /* Adjust size for medium screens */
+    left: -50px; /* Adjust the left position */
+    bottom: -15px; /* Adjust the bottom position */
+  }
+}
+
+/* For mobile devices (width less than 768px) */
+@media (max-width: 768px) {
+  .custom-hero-gif {
+    width: 90%; /* Smaller size for mobile */
+    left: -30px; /* Adjust the left position for mobile */
+    bottom: -10px; /* Adjust the bottom position for mobile */
+  }
+}
+
+/* For small mobile devices (width less than 480px) */
+@media (max-width: 480px) {
+  .custom-hero-gif {
+    width: 80%; /* Smaller size for small mobile devices */
+    left: -20px; /* Adjust the left position for small mobile */
+    bottom: -5px; /* Adjust the bottom position for small mobile */
+  }
+}
