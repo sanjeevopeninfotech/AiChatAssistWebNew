@@ -180,7 +180,7 @@
   overflow-x: hidden;
 }
 body {
-  font-family: "gordita";
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 16px;
   position: relative;
@@ -1158,15 +1158,14 @@ body .btn-twentySix:hover:after {
   background: var(--prime-one);
 }
 .theme-main-menu .contact-btn-two {
+  background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
   line-height: 48px;
-  border: 1px solid var(--prime-two);
-  color: var(--prime-two);
+  color: #fff;
   border-radius: 30px;
   padding: 0 35px;
 }
 .theme-main-menu .contact-btn-two:hover {
-  background: var(--prime-two);
-  color: #fff;
+  background: linear-gradient(271.27deg, #cd8be6 -9.95%, #887ee1 110.34%);
 }
 .theme-main-menu .contact-btn-three {
   line-height: 50px;
@@ -2412,6 +2411,8 @@ body .btn-twentySix:hover:after {
   animation: jumpTwo 6s infinite linear;
 }
 .fancy-feature-three .screen-holder-one .logo-two {
+  width: 120px;
+  height: 120px;
   top: 23%;
   left: -59px;
   animation: jumpThree 6s infinite linear;
@@ -3039,6 +3040,7 @@ body .btn-twentySix:hover:after {
   color: #fff;
 }
 .hero-banner-three .hero-heading {
+  font-family: "Open Sans", sans-serif;
   font-size: 50px;
   line-height: 1.22em;
   letter-spacing: -2px;
@@ -3100,6 +3102,7 @@ body .btn-twentySix:hover:after {
   padding-left: 5px;
   transition: all 0.3s ease-in-out;
   color: rgba(0, 0, 0, 0.8);
+  // color: #fff;
 }
 .hero-banner-three .video-icon span {
   color: rgba(0, 0, 0, 0.3);
@@ -3107,7 +3110,7 @@ body .btn-twentySix:hover:after {
   margin-bottom: 4px;
 }
 .hero-banner-three .video-icon:hover i {
-  background: var(--prime-three);
+  background: linear-gradient(271.27deg, #cd8be6 -9.95%, #887ee1 110.34%);
   border-color: var(--prime-three);
   color: #fff;
 }

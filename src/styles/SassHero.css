@@ -6,8 +6,48 @@
   max-width: none; /* Ensure no max-width constraints */
 }
 
+/* .customColor {
+  background: -webkit-linear-gradient(
+    271.27deg,
+    #887ee1 -9.95%,
+    #cd8be6 110.34%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
 .customColor {
-  color: #8671e5;
+  background: -webkit-linear-gradient(
+    271.27deg,
+    #887ee1 -9.95%,
+    #cd8be6 110.34%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.customColor::selection {
+  background: -webkit-linear-gradient(
+    271.27deg,
+    #887ee1 -9.95%,
+    #cd8be6 110.34%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: inherit; /* Make sure the text retains its original color (transparent gradient) */
+  background-color: transparent; /* Ensure the background does not override the text */
+}
+
+.customColor::-moz-selection {
+  background: -webkit-linear-gradient(
+    271.27deg,
+    #887ee1 -9.95%,
+    #cd8be6 110.34%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: inherit;
+  background-color: transparent;
 }
 
 /* Header Logo */

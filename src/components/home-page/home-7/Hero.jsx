@@ -5,13 +5,12 @@ const Hero = () => {
   return (
     <>
       <a href="#" className="slogan d-inline-block glassy">
-        <strong className="fw-500">Offer</strong> is going on till friday,
-        $1.99/mo. <i className="fas fa-chevron-right" />
+        Get <b>Free</b> Chat <i className="fas fa-chevron-right" />
       </a>
       <h1 className="hero-heading mt-45 mb-40 md-mt-20">
-        Your Trusted
-        <span className="fw-bold customColor"> Knowledge Source</span>,
-        On-Demand!
+        Instant
+        <span className="fw-bold customColor"> Solution </span>
+        with <span className="fw-bold customColor"> AI-Powered </span>Chatbots
       </h1>
       <p className="text-sm mb-50 lg-mb-30 pe-xxl-4">
         Empower your users with instant access to accurate information from a

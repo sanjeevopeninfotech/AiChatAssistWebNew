@@ -17,6 +17,8 @@ import FooterMenu from "../../components/home-page/home-6/FooterMenu";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import "../../styles/SassHero.css";
 import NET from "vanta/src/vanta.dots";
+import line1 from "/images/customAssets/Line1.gif";
+import line2 from "/images/customAssets/Line2.gif";
 
 const SassProduct = () => {
   const vantaRef = useRef(null);
@@ -31,7 +33,8 @@ const SassProduct = () => {
       minWidth: 200.0,
       scale: 1.0,
       scaleMobile: 1.0,
-      color: 0xa227a7,
+      color: 0xd51bd6,
+      color2: 0xaf20ff,
       backgroundColor: 0xffffff,
       showLines: false,
     });
@@ -112,9 +115,9 @@ const SassProduct = () => {
               >
                 <div className="title-style-three">
                   <div className="sc-title text-uppercase">
-                    Integrates your tools
+                    Integrate your tools
                   </div>
-                  <h2 className="main-title fw-500">
+                  <h2 className="hero-heading fw-500">
                     Connect jano with the
                     <span className="d-inline-block position-relative">
                       software
