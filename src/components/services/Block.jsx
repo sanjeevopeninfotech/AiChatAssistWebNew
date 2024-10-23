@@ -10,43 +10,30 @@ const Block = () => {
           />
         </div>
         <div className="col-md-7 col-sm-8" data-aos="fade-down">
-          <div className="block-wrapper block-one">
-            <h3 style={{ color: "#FFAE10" }}>10million+</h3>
-            <p>Customers trust us &amp; have bought insurance.</p>
-          </div>
+          <img
+            src="/images/customAssets/infoBotSec5.svg"
+            alt="graph"
+            className="w-75"
+          />
           {/* /.block-wrapper */}
         </div>
       </div>
       {/* End .row */}
 
       <div className="row gx-xxl-5" data-aos="fade-down">
-        <div className="col-sm-7" data-aos="fade-down">
-          <div className="block-wrapper block-two position-relative mt-50 sm-mt-30">
-            <h3 style={{ color: "#9650EF" }}>
-              50+ <br />
-              <span>Insurance</span>
-            </h3>
-            <p>
-              Partnered with us so that you can compare easily &amp;
-              transparently
-            </p>
-            <img
-              src="/images/shape/shape_138.svg"
-              alt="sahpe"
-              className="lazy-img shapes shape-one"
-            />
-          </div>
-          {/* /.block-wrapper */}
-        </div>
+        <img
+          src="/images/customAssets/Graph.svg"
+          alt="graph"
+          className="w-50 mt-5"
+        />
         {/* End .col */}
 
         <div className="col-sm-5" data-aos="fade-up">
-          <div className="block-wrapper block-three mt-50 sm-mt-30">
-            <h3 style={{ color: "#00BDE6" }}>
-              <span>Claims</span>
-            </h3>
-            <p>Get Support by expert easily.</p>
-          </div>
+          {/* <img
+            src="/images/customAssets/infoBotSec5img.svg"
+            alt="graph"
+            className="w-50"
+          /> */}
           {/* /.block-wrapper */}
           <img
             src="/images/shape/shape_137.svg"

@@ -1,4 +1,4 @@
-import HeroBtnGroup from "./HeroBtnGroup";
+import HeroBtnGroup from "./BtnInfoBot";
 import "/src/styles/SassHero.css";
 
 const Hero = () => {
@@ -11,17 +11,6 @@ const Hero = () => {
         Instant
         <span className="fw-bold customColor"> Solution </span>
         with <span className="fw-bold customColor"> AI-Powered </span>Chatbots
-        {/* <img
-          src="/images/customAssets/chatbot.png"
-          alt="AI Chatbot GIF"
-          className="d-inline-block gif-icon"
-          style={{
-            width: "50px",
-            height: "50px",
-            marginLeft: "10px",
-            marginBottom: "10px",
-          }}
-        /> */}
       </h1>
       <p className="text-sm mb-50 lg-mb-30 pe-xxl-4">
         Empower your users with instant access to accurate information from a

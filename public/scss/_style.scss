@@ -35,13 +35,13 @@
   --prime-three: #8671e5;
   --prime-four: #ffcd45;
   --prime-five: #007bff;
-  --prime-six: #ffd338;
+  --prime-six: #8671e5;
   --prime-seven: linear-gradient(-90deg, #ff7df2 0%, #ff275b 100%);
-  --prime-eight: #ffed4e;
+  --prime-eight: #8671e5;
   --prime-nine: #ff1292;
-  --prime-ten: #ff3294;
-  --prime-eleven: #ffce4c;
-  --prime-twelve: #ffe500;
+  --prime-ten: #454546;
+  --prime-eleven: #8671e5;
+  --prime-twelve: #8671e5;
 }
 ::selection {
   background-color: #000;
@@ -836,31 +836,19 @@ body .btn-thirteen:hover {
   background: var(--prime-two);
 }
 body .btn-fourteen {
+  border-radius: 50px;
   line-height: 60px;
   font-size: 18px;
-  color: #000;
+  color: #fff;
   padding: 0 30px;
-  background: var(--prime-six);
+  background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
   position: relative;
 }
-body .btn-fourteen:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 8px;
-  left: 8px;
-  z-index: -1;
-  background: #000;
-  transition: all 0.3s ease-in-out;
-}
+
 body .btn-fourteen:hover {
-  background: #000;
-  color: #fff;
+  background: linear-gradient(271.27deg, #cd8be6 -9.95%, #887ee1 110.34%);
 }
-body .btn-fourteen:hover:before {
-  background: var(--prime-six);
-}
+
 body .btn-fifteen {
   font-size: 18px;
   color: #000;
@@ -3054,17 +3042,17 @@ body .btn-twentySix:hover:after {
   transition: background 0.5s ease-in-out; /* Make sure the transition is smooth */
 }
 
-.hero-banner-three .download-btn button:after {
-  content: url(/images/icon/icon_21.svg);
-  border: none;
-  margin: 0 0 0 8px;
-  vertical-align: 0;
-  transition: transform 1s ease-in-out; /* Ensure smooth rotation for the icon */
-}
+// .hero-banner-three .download-btn button:after {
+//   content: url(/images/icon/icon_21.svg);
+//   border: none;
+//   margin: 0 0 0 8px;
+//   vertical-align: 0;
+//   transition: transform 1s ease-in-out;
+// }
 
-.hero-banner-three .download-btn button.show:after {
-  transform: rotate(180deg);
-}
+// .hero-banner-three .download-btn button.show:after {
+//   transform: rotate(180deg);
+// }
 
 .hero-banner-three .download-btn button.show,
 .hero-banner-three .download-btn button:hover {
@@ -3094,15 +3082,15 @@ body .btn-twentySix:hover:after {
 .hero-banner-three .video-icon i {
   width: 60px;
   height: 60px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
   line-height: 58px;
   border-radius: 50%;
   text-align: center;
   font-size: 36px;
   padding-left: 5px;
-  transition: all 0.3s ease-in-out;
-  color: rgba(0, 0, 0, 0.8);
-  // color: #fff;
+  transition: all 0.5s ease-in-out;
+  // color: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 .hero-banner-three .video-icon span {
   color: rgba(0, 0, 0, 0.3);
@@ -3111,8 +3099,6 @@ body .btn-twentySix:hover:after {
 }
 .hero-banner-three .video-icon:hover i {
   background: linear-gradient(271.27deg, #cd8be6 -9.95%, #887ee1 110.34%);
-  border-color: var(--prime-three);
-  color: #fff;
 }
 .hero-banner-three h2 {
   font-size: 38px;
@@ -8989,7 +8975,7 @@ body .btn-twentySix:hover:after {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Fancy Short Banner Sixteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-short-banner-sixteen .bg-wrapper {
-  background: #1f1f1f;
+  background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
   border-radius: 40px;
 }
 .fancy-short-banner-sixteen .main-title {

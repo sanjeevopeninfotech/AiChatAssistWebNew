@@ -66,6 +66,13 @@
   background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
 }
 
+.personaHeading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  line-height: 1.22em;
+  letter-spacing: -2px;
+}
+
 /* For tablets (portrait and landscape, width less than 1024px) */
 @media (max-width: 1024px) {
   .custom-hero-gif {

@@ -11,8 +11,12 @@ const DefaultFooter = () => {
           <div className="row justify-content-between">
             <div className="col-xl-2 footer-intro mb-40">
               <div className="logo">
-                <Link to="/">
-                  <img src="/images/logo/logo_01.png" alt="brand" />
+                <Link to="/home/sass-product">
+                  <img
+                    src="/images/customAssets/Logo.png"
+                    alt="brand"
+                    className="w-25"
+                  />
                 </Link>
               </div>
             </div>

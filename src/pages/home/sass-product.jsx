@@ -16,7 +16,7 @@ import Subscribe from "../../components/home-page/home-6/Subscribe";
 import FooterMenu from "../../components/home-page/home-6/FooterMenu";
 import CopyrightFooter2 from "../../components/footer/CopyrightFooter2";
 import "../../styles/SassHero.css";
-import NET from "vanta/src/vanta.dots";
+import NET from "vanta/src/vanta.globe";
 import line1 from "/images/customAssets/Line1.gif";
 import line2 from "/images/customAssets/Line2.gif";
 
@@ -33,10 +33,10 @@ const SassProduct = () => {
       minWidth: 200.0,
       scale: 1.0,
       scaleMobile: 1.0,
-      color: 0xd51bd6,
-      color2: 0xaf20ff,
+      color: 0x8940cc,
+      color2: 0xbc51d4,
+      size: 1.2,
       backgroundColor: 0xffffff,
-      showLines: false,
     });
 
     return () => {
@@ -75,11 +75,11 @@ const SassProduct = () => {
 
         <div className="mobile-screen" data-aos="fade-right">
           <div className="row gx-xxl-5 justify-content-center align-items-center">
-            <img
+            {/* <img
               src="/images/customAssets/HeroGIF.gif"
               alt="heroGIF"
               className="custom-hero-gif"
-            />
+            /> */}
           </div>
         </div>
         {/* /.mobile-screen */}
