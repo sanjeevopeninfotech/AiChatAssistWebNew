@@ -1,4 +1,5 @@
 import Seo from "../../components/common/Seo";
+import Hero from "./HeroSecMarketing";
 import Header from "../../components/home-page/home-6/Header";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import PortfolioTopTitle from "../../components/portfolio/PortfolioTopTitle";
@@ -15,6 +16,10 @@ const PortfolioV1 = () => {
       ============================================== 	
       --> */}
       <Header />
+
+      {/* Hero Section */}
+      <Hero />
+      {/* Hero Section */}
 
       {/* 
         =============================================

@@ -89,6 +89,18 @@
 .infoBotbgSec {
   background-color: #dccefa;
 }
+.MarSecBtn {
+  line-height: 60px;
+  padding: 0 40px;
+  color: #fff !important;
+  background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
+  border-radius: 50px;
+  transition: background 0.5s ease-in-out;
+}
+
+.MarSecBtn:hover {
+  background: linear-gradient(271.27deg, #cd8be6 -9.95%, #887ee1 110.34%);
+}
 /* animated button  */
 
 /* For tablets (portrait and landscape, width less than 1024px) */

@@ -1,20 +1,14 @@
 import Seo from "../../components/common/Seo";
 import Header from "../../components/home-page/home-6/Header";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-import Partners from "../../components/services/Partners";
 import Faq from "../../components/services/Faq";
-import Testimonial from "../../components/home-page/home-3/Testimonial";
 import Block from "../../components/services/Block";
-import Team3 from "../../components/team/Team3";
 import { Link } from "react-router-dom";
-import VideoBlock from "../../components/about/VideoBlock";
-import Counter from "../../components/about/Counter";
 // import HeroBtnGroup from "../../components/home-page/home-7/HeroBtnGroup";
 import "/src/styles/SassHero.css";
 // import NET from "vanta/src/vanta.dots";
 import Hero from "./HeroInfoBot";
 import InfoBotSec3 from "./InfoBotSec3";
-import { useEffect, useRef } from "react";
 
 const AboutUsV1 = () => {
   // const vantaRef = useRef(null);

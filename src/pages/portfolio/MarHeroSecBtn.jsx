@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import "/src/styles/SassHero.css";
 
 const HeroBtnGroup = () => {
   const [isOpen, setOpen] = useState(false);
@@ -38,9 +39,10 @@ const HeroBtnGroup = () => {
             <strong className="fs-18 fw-normal tx-dark d-block">Demo</strong>
           </div>
         </div>
+
         <div className="download-btn d-inline-block mb-25 me-4 order-sm-first">
           <button
-            className="tran3s gradientBtn"
+            className="tran3s MarSecBtn"
             type="button"
             id="appDownBtn"
             aria-expanded="false"

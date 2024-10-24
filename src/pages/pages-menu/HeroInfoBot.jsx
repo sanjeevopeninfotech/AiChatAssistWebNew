@@ -1,4 +1,4 @@
-import HeroBtnGroup from "./BtnInfoBot";
+import HeroBtnGroup from "../pages-menu/BtnInfoBot";
 import "/src/styles/SassHero.css";
 
 const Hero = () => {
