@@ -39,7 +39,7 @@
   --prime-seven: linear-gradient(-90deg, #ff7df2 0%, #ff275b 100%);
   --prime-eight: #8671e5;
   --prime-nine: #ff1292;
-  --prime-ten: #454546;
+  --prime-ten: #8671e5;
   --prime-eleven: #8671e5;
   --prime-twelve: #8671e5;
 }
@@ -230,6 +230,7 @@ h6 {
   font-size: 18px; /*done*/
 }
 p {
+  font-family: "Inter", sans-serif;
   line-height: 1.87em;
 }
 ::-webkit-input-placeholder {
@@ -347,7 +348,7 @@ p {
   font-size: 25px;
   cursor: pointer;
   border-radius: 50%;
-  background: var(--prime-ten);
+  background: linear-gradient(271.27deg, #887ee1 -9.95%, #cd8be6 110.34%);
   transition: all 0.3s ease-in-out;
 }
 .scroll-top:after {
@@ -8217,10 +8218,10 @@ body .btn-twentySix:hover:after {
   top: 45%;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Thirteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.hero-banner-thirteen {
-  background: url(/images/media/img_72.jpg) no-repeat left bottom;
-  background-size: cover;
-}
+// .hero-banner-thirteen {
+//   background: url(/images/media/img_72.jpg) no-repeat left bottom;
+//   background-size: cover;
+// }
 .hero-banner-thirteen .hero-heading {
   font-size: 90px;
   line-height: 1.22em;
@@ -8983,7 +8984,7 @@ body .btn-twentySix:hover:after {
   line-height: 1.16em;
 }
 .fancy-short-banner-sixteen .sc-title {
-  color: var(--prime-ten);
+  color: #fff;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Inner Banner One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .inner-banner-one {

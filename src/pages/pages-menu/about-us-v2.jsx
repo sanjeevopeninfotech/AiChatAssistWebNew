@@ -1,12 +1,16 @@
 import Seo from "../../components/common/Seo";
-import Header5 from "../../components/header/Header5";
+import Header from "../../components/home-page/home-6/Header";
 import Quote from "../../components/home-page/home-5/Quote";
 import About from "../../components/home-page/home-5/about";
 import Testimonial from "../../components/home-page/home-5/Testimonial";
 import Blog from "../../components/home-page/home-5/Blog";
-import Footer from "../../components/home-page/home-5/footer";
+import DefaultFooter from "../../components/footer/DefaultFooter";
+import Faq from "../../components/services/Faq";
 import Team4 from "../../components/team/Team4";
 import { Link } from "react-router-dom";
+import CoBotHeroSec from "./CoBotHeroSec";
+import CoBotSec3 from "./CoBotSec3";
+import CoBotBlock from "./CoBotBlock";
 
 const AboutUsV2 = () => {
   return (
@@ -16,203 +20,222 @@ const AboutUsV2 = () => {
       {/* <!--  =============================================
         Theme Header3 Menu
         ============================================== 	--> */}
-      <Header5 />
+      <Header />
 
-      {/* 
-        =============================================
-        Theme Inner Banner
-        ============================================== 
-        */}
-      <div className="inner-banner-one text-center">
+      <CoBotHeroSec />
+
+      <div className="fancy-feature-thirtyEight mt-100 lg-mt-120">
         <div className="container">
-          <h2 className="title fw-500 tx-dark">About Us</h2>
+          <div className="row">
+            <div className="col-lg-5">
+              <div className="mobile-screen" data-aos="fade-right">
+                <div className="row gx-xxl-5 justify-content-center align-items-center">
+                  <img
+                    src="/images/customAssets/CoBotSec2.svg"
+                    alt="heroGIF"
+                    className="CoBotSec2 mt-50"
+                  />
+                </div>
+              </div>
+              {/* /.block-style-seven */}
+            </div>
+            {/* End .col-lg-5 */}
+            <div className="col-lg-6 ms-auto" data-aos="fade-left">
+              <h1 className="personaHeading text-sm mt-45 mb-40 md-mt-20">
+                <span className="fw-bold customColor">Versatile Solution</span>{" "}
+                for Every Business Need
+                <span className="fw-bold customColor"> Across Industries</span>
+              </h1>
+              <p className="text-sm mb-50 lg-mb-30 pe-xxl-4">
+                Discover endless possibilities with the Coordinator Bot, from
+                customer engagement and lead management to data collection and
+                seamless integrations. Whether focusing on sales, service, or
+                insights, the bot adapts effortlessly to meet evolving business
+                needs and objectives.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* /.container */}
+      </div>
+
+      <div
+        // id="vanta"
+        // ref={vantaRef}
+        className="hero-banner-three position-relative pt-180 md-pt-150 bg"
+        data-aos="fade-right"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <CoBotSec3 />
+            </div>
+          </div>
+        </div>
+        {/* /.container */}
+
+        <div className="mobile-screen" data-aos="fade-right">
+          <div className="row gx-xxl-5 justify-content-center align-items-center">
+            <img
+              src="/images/customAssets/CoBotSec3.svg"
+              alt="heroGIF"
+              className="CoBotSec3 w-75 mt-50"
+            />
+          </div>
         </div>
       </div>
-      {/* /.inner-banner-one */}
+
+      <div className="fancy-feature-thirtyEight mt-150 lg-mt-120">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5">
+              <div className="mobile-screen" data-aos="fade-right">
+                <div className="row gx-xxl-5 justify-content-center align-items-center">
+                  <img
+                    src="/images/customAssets/CoBotSec4.svg"
+                    alt="heroGIF"
+                    className="CoBotSec4 w-100"
+                  />
+                </div>
+              </div>
+              {/* /.block-style-seven */}
+            </div>
+            {/* End .col-lg-5 */}
+            <div className="col-lg-6 ms-auto" data-aos="fade-left">
+              <h1 className="personaHeading text-sm mt-45 mb-40 md-mt-20">
+                <span className="fw-bold customColor">Say Goodbye </span> To
+                <br />
+                Traditional Forms
+              </h1>
+              <p className="text-sm mb-50 lg-mb-30 pe-xxl-4">
+                Forget about the outdated, time-consuming process of filling out
+                lengthy lead generation forms. The Coordinator Bot simplifies
+                lead capture by engaging customers in interactive conversations
+                that gather key details effortlessly. Improve the user
+                experience while ensuring you collect the information that
+                matters most for your sales and marketing efforts
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* /.container */}
+      </div>
+
+      <div
+        // id="vanta"
+        // ref={vantaRef}
+        className="hero-banner-three position-relative pt-180 md-pt-150 bg"
+      >
+        <div className="container" data-aos="fade-up">
+          <div className="row">
+            <div className="col-lg-6">
+              <CoBotBlock />
+            </div>
+          </div>
+        </div>
+        {/* /.container */}
+
+        <div className="mobile-screen" data-aos="fade-down">
+          <div className="row gx-xxl-5 justify-content-center align-items-center">
+            <img
+              src="/images/customAssets/CoBotSec5.svg"
+              alt="heroGIF"
+              className="CoBotSec5 w-75 mt-75"
+            />
+          </div>
+        </div>
+      </div>
 
       {/* 
         =============================================
         Feature Section Forty Six
         ============================================== 
         */}
-      <div className="fancy-feature-fortySix position-relative">
-        <div className="container">
-          <div className="line-bg-wrapper position-relative pt-20 pb-180 lg-pt-20 md-pb-130">
-            <Quote />
-            {/* /.quote-wrapper */}
 
-            <div className="shapes shape-two" />
-
-            <img
-              src="/images/assets/sticker_02.png"
-              alt="sticker"
-              className="lazy-img shapes shape-four"
-            />
-            <div className="shapes shape-five" />
-            <div className="shapes shape-six" />
-          </div>
-          {/* /.line-bg-wrapper */}
-        </div>
-        {/* /.container */}
-      </div>
-
-      {/* 
-        =============================================
-        Feature Section Forty Eight
-        ============================================== 
-        */}
-      <div className="fancy-feature-fortyEight position-relative">
-        <div className="container">
-          <div className="line-bg-wrapper position-relative pt-200 pb-200 lg-pt-120 lg-pb-110">
-            <About />
-          </div>
-          {/* /.line-bg-wrapper */}
-        </div>
-        {/* /.container */}
-      </div>
-
-      {/*
-        =====================================================
-        Team Section Three
-        =====================================================
-        */}
-      <div className="team-section-three position-relative pt-40 md-pt-20">
+      <div className="fancy-feature-twentyFive mt-170 lg-mt-100">
         <div className="container">
           <div className="row align-items-center">
-            <div
-              className="col-xxl-8 col-md-7 col-sm-9 m-auto"
-              data-aos="fade-up"
-            >
-              <div className="title-style-five text-center pb-50 lg-pb-20">
-                <h2 className="main-title fw-500 tx-dark">
-                  We’ve talented expert to help you
+            <div className="col-xl-9 m-auto" data-aos="fade-up">
+              <div
+                className="title-style-seven text-center pb-120 lg-pb-50"
+                data-aos="fade-up"
+              >
+                <h2 className="personaHeading  tx-dark">
+                  <span className="fw-bold customColor">FAQ's </span>
+                </h2>
+                <h2 className="personaHeading tx-dark">
+                  Explore a list of frequently asked questions to learn more
+                  about{" "}
+                  <span className="fw-bold customColor">
+                    Bot's capabilities{" "}
+                  </span>
                 </h2>
               </div>
-              {/* /.title-style-five */}
+              {/* /.title-style-seven */}
             </div>
-          </div>
-          {/* /.row */}
-        </div>
-        {/* /.container */}
-        <div className="pe-3 ps-3 ps-xxl-5 pe-xxl-5">
-          <div className="row">
-            <Team4 />
-          </div>
-        </div>
-        <div className="line-bg-wrapper" />
-      </div>
-      {/* /.team-section-three */}
+            <div className="col-xl-9 col-lg-10 m-auto " data-aos="fade-up">
+              <Faq />
 
-      {/*
-        =====================================================
-        Feedback Section Fourteen
-        =====================================================
-        */}
-      <div className="feedback-section-fourteen position-relative zn2">
-        <div className="container">
-          <div className="line-bg-wrapper position-relative zn2 pt-250 pb-180 lg-pt-120 lg-pb-80">
-            <div className="row">
-              <div className="col-md-6" data-aos="fade-right">
-                <div className="title-style-five">
-                  <h2 className="main-title fw-500 tx-dark">
-                    Check our client lovely words.
-                  </h2>
-                </div>
-                {/* /.title-style-five */}
-                <div className="mt-120 lg-mt-40 ps-xl-5 ms-xl-5">
-                  <div className="feedback_slider_eleven">
-                    <Testimonial />
-                  </div>
-                  {/* /.feedback_slider_eleven */}
-                </div>
-              </div>
-              {/* End .col-md-6 */}
-
-              <div className="col-xl-6 col-lg-5 col-md-6 ms-auto">
-                <div
-                  className="img-holder position-relative mt-25"
-                  data-aos="fade-left"
-                >
-                  <img
-                    src="/images/media/img_84.jpg"
-                    alt="shape"
-                    className="lazy-img ms-auto"
-                  />
-
-                  <div className="rating-box bg-black text-white d-flex flex-column justify-content-center align-items-center">
-                    <strong className="fw-500">4.8</strong>
-                    <span>avg rating</span>
-                  </div>
-                  {/* /.rating-box */}
-
-                  <img
-                    src="/images/shape/shape_163.svg"
-                    alt="shape"
-                    className="lazy-img shapes shape-one"
-                  />
-                  <img
-                    src="/images/shape/shape_168.svg"
-                    alt="shape"
-                    className="lazy-img shapes shape-two"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* /.line-bg-wrapper */}
-        </div>
-        {/* End .container */}
-
-        <img
-          src="/images/shape/shape_169.svg"
-          alt="shape"
-          className="lazy-img shapes shape-three"
-        />
-      </div>
-
-      {/* 
-        =============================================
-        Blog Section Six
-        ============================================== 
-        */}
-      <div className="blog-section-six position-relative zn2 pt-150 pb-200 lg-pt-90 lg-pb-100">
-        <div className="container">
-          <div className="position-relative">
-            <div className="title-style-five text-center text-sm-start mb-30 lg-mb-10">
-              <h2 className="main-title fw-500 tx-dark">Our Blog</h2>
-            </div>
-            {/* /.title-style-five */}
-
-            <div className="row gx-xxl-5">
-              <Blog />
-            </div>
-            {/* End .row */}
-
-            <div className="btn-holder text-center">
-              <div className="btn-eighteen position-relative d-inline-block tx-dark">
-                <Link to="/blog/blog-v1" className="fw-500 tran3s">
-                  Check our all news <i className="fa-solid fa-angle-right" />
+              <div className="text-center  mt-80 lg-mt-50">
+                <h3 className="fw-bold tx-dark mb-30">
+                  Didn’t get your answer?
+                </h3>
+                <Link to="/contact" className="btn-fourteen fw-500 tran3s">
+                  Submit your question
                 </Link>
               </div>
             </div>
-            {/* End btn-holder */}
           </div>
         </div>
-        {/* End .container */}
-
-        <img
-          src="/images/shape/shape_163.svg"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
+        {/* /.container */}
       </div>
 
-      {/* <!--
-        =====================================================
-        Footer
-        =====================================================
-        --> */}
-      <Footer />
+      {/*
+			=====================================================
+				Fancy Short Banner Sixteen
+			=====================================================
+			*/}
+      <div
+        className="fancy-short-banner-sixteen mt-130 lg-mt-80"
+        data-aos="fade-up"
+      >
+        <div className="container">
+          <div className="bg-wrapper pt-65 pb-65 lg-pt-40 lg-pb-40">
+            <div className="row">
+              <div className="col-xl-10 col-md-11 m-auto">
+                <div className="row align-items-center">
+                  <div className="col-lg-6">
+                    <div className="text-wrapper text-center text-lg-start md-pb-30">
+                      <div className="sc-title fs-18 pb-10">
+                        Have Any Project?
+                      </div>
+                      <h2 className="main-title fw-500 text-white m0">
+                        Don’t hesitate to send us message.
+                      </h2>
+                    </div>
+                  </div>
+                  {/* End .col-6 */}
+
+                  <div className="col-lg-5 ms-auto text-center text-lg-end">
+                    <Link to="/contact" className="btn-twentyOne fw-500 tran3s">
+                      Get Started Today!
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* /.bg-wrapper */}
+        </div>
+      </div>
+      {/* /.fancy-short-banner-sixteen */}
+
+      {/* 
+        =============================================
+        Contact Section One
+        ============================================== 
+        */}
+      <DefaultFooter />
     </>
   );
 };
