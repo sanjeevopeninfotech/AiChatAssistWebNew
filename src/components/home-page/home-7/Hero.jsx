@@ -5,7 +5,8 @@ const Hero = () => {
   return (
     <>
       <a href="#" className="slogan d-inline-block glassy">
-        Get <b>Free</b> Chat <i className="fas fa-chevron-right" />
+        Start <span className="fw-bold customColor">free</span> trial today
+        <i className="fas fa-chevron-right" />
       </a>
       <h1 className="hero-heading mt-45 mb-40 md-mt-20">
         Instant

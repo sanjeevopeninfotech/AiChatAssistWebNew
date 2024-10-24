@@ -29,7 +29,7 @@ const Header = () => {
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
-            <Link to="/" className="d-block">
+            <Link to="/home/sass-product" className="d-block">
               <img
                 src="/images/customAssets/Logo.png"
                 alt="logo"

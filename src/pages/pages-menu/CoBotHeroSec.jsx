@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="line-bg-wrapper hero-banner-thirteen position-relative zn2 pt-190 pb-50 lg-pb-100 lg-pt-150 md-pb-50">
+    <div className="hero-banner-thirteen position-relative zn2 pt-190 pb-150 lg-pb-100 lg-pt-150 md-pb-50">
       <div className="container">
         <div className="row">
           <div className="col-xl-10 m-auto">

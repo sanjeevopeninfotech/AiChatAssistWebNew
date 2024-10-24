@@ -1,5 +1,5 @@
 import Seo from "../../components/common/Seo";
-import DefaulHeader from "../../components/header/DefaulHeader";
+import Header from "../../components/home-page/home-6/Header";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import PortfolioTopTitle from "../../components/portfolio/PortfolioTopTitle";
 import PortfolioGallery1 from "../../components/portfolio/PortfolioGallery1";
@@ -14,7 +14,7 @@ const PortfolioV1 = () => {
       Theme Default Menu
       ============================================== 	
       --> */}
-      <DefaulHeader />
+      <Header />
 
       {/* 
         =============================================

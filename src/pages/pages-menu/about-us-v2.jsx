@@ -1,16 +1,12 @@
 import Seo from "../../components/common/Seo";
 import Header from "../../components/home-page/home-6/Header";
-import Quote from "../../components/home-page/home-5/Quote";
-import About from "../../components/home-page/home-5/about";
-import Testimonial from "../../components/home-page/home-5/Testimonial";
-import Blog from "../../components/home-page/home-5/Blog";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import Faq from "../../components/services/Faq";
-import Team4 from "../../components/team/Team4";
 import { Link } from "react-router-dom";
 import CoBotHeroSec from "./CoBotHeroSec";
 import CoBotSec3 from "./CoBotSec3";
 import CoBotBlock from "./CoBotBlock";
+import "/src/styles/SassHero.css";
 
 const AboutUsV2 = () => {
   return (
@@ -46,7 +42,7 @@ const AboutUsV2 = () => {
                 for Every Business Need
                 <span className="fw-bold customColor"> Across Industries</span>
               </h1>
-              <p className="text-sm mb-50 lg-mb-30 pe-xxl-4">
+              <p className="mb-50 lg-mb-30 pe-xxl-4">
                 Discover endless possibilities with the Coordinator Bot, from
                 customer engagement and lead management to data collection and
                 seamless integrations. Whether focusing on sales, service, or
@@ -124,7 +120,7 @@ const AboutUsV2 = () => {
       <div
         // id="vanta"
         // ref={vantaRef}
-        className="hero-banner-three position-relative pt-180 md-pt-150 bg"
+        className="cobotbgsec hero-banner-three position-relative pt-180 md-pt-150 bg"
       >
         <div className="container" data-aos="fade-up">
           <div className="row">

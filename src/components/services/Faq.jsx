@@ -1,3 +1,5 @@
+import "/src/styles/SassHero.css";
+
 const accordionItems = [
   {
     id: 1,

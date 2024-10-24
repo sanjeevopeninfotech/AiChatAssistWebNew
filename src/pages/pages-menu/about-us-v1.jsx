@@ -91,7 +91,7 @@ const AboutUsV1 = () => {
         {/* /.mobile-screen */}
       </div>
 
-      <div className="fancy-feature-thirtyEight mt-180 lg-mt-120">
+      <div className="infoBotSec2 fancy-feature-thirtyEight mt-180 lg-mt-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
@@ -190,7 +190,7 @@ const AboutUsV1 = () => {
         {/* /.container */}
       </div>
 
-      <div className="fancy-feature-thirtySeven mt-150 lg-mt-120">
+      <div className="infoBotbgSec fancy-feature-thirtySeven mt-150 lg-mt-120">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 " data-aos="fade-right">

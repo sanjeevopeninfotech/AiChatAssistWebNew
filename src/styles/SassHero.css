@@ -58,8 +58,7 @@
 /* Hero Section of components/home-page/home-7/Hero */
 
 .glassy {
-  box-shadow: 5px 6px 10px rgba(136, 126, 225, 1),
-    /* First gradient color (approximated) */ 5px 6px 0 rgba(205, 139, 230, 1); /* Second gradient color (approximated) */
+  box-shadow: 2px 2px 2px rgba(136, 126, 225, 1);
 }
 
 .gradientBtn {
@@ -72,6 +71,25 @@
   line-height: 1.22em;
   letter-spacing: -2px;
 }
+
+.hero-banner-thirteen {
+  background-image: url(/images/assets/bg-5.png);
+  background-size: cover;
+}
+
+.cobotbgsec {
+  background-image: url(/images/assets/bg-5.png);
+  background-size: cover;
+}
+
+.infoBotSec2 {
+  background-color: #dccefa;
+}
+
+.infoBotbgSec {
+  background-color: #dccefa;
+}
+/* animated button  */
 
 /* For tablets (portrait and landscape, width less than 1024px) */
 @media (max-width: 1024px) {
